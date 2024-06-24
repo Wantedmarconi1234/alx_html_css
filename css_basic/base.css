@@ -52,33 +52,52 @@ table {
 	border-spacing: 0;
 }
 
+table, thead, tbody, tr {
+	border: solid;
+}
+
 
 /* Fonts and colors */
 
 body {
 	font-family: 'Josefin Sans', serif;
-	color: rgba(0, 0, 0, 0.8);
+	color: rgba(237, 229, 229, 0.8);
 }
 h1, h2, h3, h4, h5, h6, header {
 	font-family: 'Yeseva One', sans-serif;
 }
 article {
+	color: rgb(9, 8, 70);
+	background-color: #ffff;
 }
+
+article > p, h1, h2, h3, h4, h5, h6 {
+	border: solid 1px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
 header {
 	border-bottom: 1px solid rgb(221,221,221);
+	background-color: rgb(4, 4, 23);
 	transition: border-bottom-color 1s ease;
 }
 header a {
-	color: rgba(0, 0, 0, 0.8);
+	color: rgba(247, 242, 242, 0.8);
 }
 aside {
-	background: #FAFAFA;
+	background: gainsboro;
 }
 aside p {
 	border: 1px solid #bbb;
 	background: #ddd;
 	color: black;
 }
+
+footer {
+	background-color: rgb(167, 164, 164);
+}
+
 footer a {
 	color: rgba(0, 0, 0, 0.8);
 }
