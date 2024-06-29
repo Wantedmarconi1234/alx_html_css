@@ -9,10 +9,10 @@
 }
 
 body {
-    max-width: 1440px;
+    width: 100%;
 }
 
-header,main, footer {
+header, section {
     padding: 0 172px;
 }
 
@@ -91,7 +91,8 @@ header {
     position: absolute;  
     left: 39%; 
     top: 110%;
-    color: #C271FF;
+    background-color: #C271FF;
+    color: #FFFFFF;
 }
 
 .header-lower {
@@ -142,5 +143,35 @@ header {
     opacity: 0.8;
 }
 
+/* Styles for quote section */
 
+.quote-section {
+    display: flex;
+    align-items: center;
+    height: 392px;
+    background-color: #C271FF;
+    max-width: 1440px;
+}
 
+.quoter-profile {
+    margin-right: 53px;
+}
+
+.quoter-text {
+    line-height: 34px;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.blockquote, .quoter-presenter-type {
+    margin-bottom: 34px;
+}
+
+.blockquote {
+    font-weight: lighter;
+}
+
+.quoter-presenter-type {
+    font-style: italic;
+    opacity: 0.8;
+}
