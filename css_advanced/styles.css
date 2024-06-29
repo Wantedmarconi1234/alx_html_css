@@ -9,7 +9,7 @@
 }
 
 body {
-    width: 100%;
+    max-width: 1400px;
 }
 
 header, section {
@@ -25,6 +25,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 1093px;
+    width: 100%;
     position: relative;
 }
 
@@ -90,7 +91,7 @@ header {
     font-weight: 600;
     position: absolute;  
     left: 39%; 
-    top: 110%;
+    top: 120%;
     background-color: #C271FF;
     color: #FFFFFF;
 }
@@ -101,7 +102,7 @@ header {
 }
 
 .header-lower > h2 {
-    margin-bottom: 10px;
+    margin-bottom: 5rem;
     text-align: center;
     font-size: 32px;
     color: #FFFFFF;
@@ -114,13 +115,15 @@ header {
 }
 
 .header-profiles {
-    display: flex;
-    align-items: center;
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(250px, auto));
+    margin-top: 20px;
 }
 
 .header-profiles > div {
-    margin:  40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 
 .header-profile {
@@ -150,7 +153,6 @@ header {
     align-items: center;
     height: 392px;
     background-color: #C271FF;
-    max-width: 1440px;
 }
 
 .quoter-profile {
@@ -163,7 +165,7 @@ header {
     color: #FFFFFF;
 }
 
-.blockquote, .quoter-presenter-type {
+.blockquote {
     margin-bottom: 34px;
 }
 
@@ -175,3 +177,159 @@ header {
     font-style: italic;
     opacity: 0.8;
 }
+
+/* Tutorial section */
+
+.tutorials-section {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    min-height: 500px;
+    background-color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.tutorials-header {
+    text-align: center;
+    font-size: 32px;
+    font-weight: lighter;
+    margin: 2rem 0;
+}
+
+#popular {
+    color: #C271FF;
+    font-weight: bold;
+}
+
+.tutorials-block {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    place-content: center;
+    column-gap: 25px;
+    align-items: center;
+}
+
+.block {
+    display: grid;
+    row-gap: 20px;
+}
+
+.philip-profile > img {
+    width: 25px;
+    height: 30px;
+    margin-right: 15px;
+} 
+
+.tutorial-profile-image {
+    position: relative;
+    display: grid;
+    place-content: center;
+}
+
+.play-icon {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 8%;
+    margin-top: 4%;
+}
+
+.philip-profile > h4 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #C271FF;
+}
+
+.philip-profile {
+    display: flex;
+    align-items: center;
+}
+
+.ratings-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tutorial-text {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+}
+
+i {
+    padding-right: 10px;
+    color: #C271FF;
+}
+
+.last {
+    color: #979797;
+}
+
+/* membership styles */
+
+.membership-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    place-content: center;
+    min-height: 505px;
+    background-color: #071629;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.membership-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 26px;   
+    padding: 5rem 0;
+}
+
+.membership-flex > div {
+    margin: 10px;
+}
+
+.register-button {
+    color: #FFFFFF;
+    background-color: #C271FF;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    border-radius: 5rem;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.membership-header {
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.free-membership {
+    color: #C271FF;
+    font-weight: bold;
+}
+
+.membership-text {
+    font-size: 14px;
+}
+
+
+
+
+
+
+
