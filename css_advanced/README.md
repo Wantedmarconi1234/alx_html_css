@@ -15,7 +15,7 @@ the figma file.
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/Wantedmarconi1234/alx_html_css.git
     ```
 2. Navigate to the project directory:
     ```bash
@@ -32,7 +32,6 @@ the figma file.
 
 ## Usage
 
-Provide instructions and examples so users/contributors can use the project. Here is an example:
+Open the webpage using a live server.
 
-```bash
-npm start
+
