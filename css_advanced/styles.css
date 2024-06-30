@@ -1,5 +1,7 @@
 :root {
-    --first-font-color: "#ffffff"
+    --white-font: #ffffff;
+    --purple-font: #C271FF;
+    --dark-font: #071629;
 }
 
 * {
@@ -9,14 +11,14 @@
 }
 
 body {
-    max-width: 1400px;
+    width: 100%;
 }
+
+/* Header styles */
 
 header, section {
     padding: 0 172px;
 }
-
-/* Above is the styles for header */
 
 header {
     color: var(--first-font-color);
@@ -49,7 +51,7 @@ header {
 .nav-links > li > a {
     padding: 53px;
     text-decoration: none;
-    color: #FFFFFF;
+    color: var(--white-font);
     font-size: 12px;
     font-weight: bold;
 }
@@ -62,13 +64,12 @@ header {
     top: 50%;
     left: 24%;
     text-align: center;
-    color: var(--first-font-color);
 }
 
 .header-mid-content > h1 {
     font-size: 120px;
     font-weight: bold;
-    color: #FFFFFF;
+    color: var(--white-font);
 }
 
 .sub-titles {
@@ -79,7 +80,7 @@ header {
 
 .sub-titles > span {
     margin: 20px;
-    color: #FFFFFF;
+    color: var(--white-font);
 }
 
 .header-mid-content > button {
@@ -92,8 +93,8 @@ header {
     position: absolute;  
     left: 39%; 
     top: 120%;
-    background-color: #C271FF;
-    color: #FFFFFF;
+    background-color: var(--purple-font);
+    color: var(--white-font);
 }
 
 .header-lower {
@@ -105,13 +106,13 @@ header {
     margin-bottom: 5rem;
     text-align: center;
     font-size: 32px;
-    color: #FFFFFF;
+    color: var(--white-font);
     font-weight: lighter;
 }
 
 #profile-learn {
     font-weight: bold;
-    color: #C271FF;
+    color: var(--purple-font);
 }
 
 .header-profiles {
@@ -136,12 +137,12 @@ header {
 
 .header-profile-name {
     font-size: 18px;
-    color: #ffffff;
+    color: var(--white-font);
 }
 .profile-bio {
     font-size: 16px;
     font-style: italic;
-    color: #FFFFFF;
+    color: var(--white-font);
     line-height: 24px;
     opacity: 0.8;
 }
@@ -152,7 +153,7 @@ header {
     display: flex;
     align-items: center;
     height: 392px;
-    background-color: #C271FF;
+    background-color: var(--purple-font);
 }
 
 .quoter-profile {
@@ -162,7 +163,7 @@ header {
 .quoter-text {
     line-height: 34px;
     font-size: 22px;
-    color: #FFFFFF;
+    color: var(--white-font);
 }
 
 .blockquote {
@@ -185,7 +186,7 @@ header {
     flex-direction: column;
     place-content: center;
     min-height: 500px;
-    background-color: #FFFFFF;
+    background-color: var(--white-font);
     padding-bottom: 20px;
 }
 
@@ -197,7 +198,7 @@ header {
 }
 
 #popular {
-    color: #C271FF;
+    color: var(--purple-font);
     font-weight: bold;
 }
 
@@ -237,7 +238,7 @@ header {
 .philip-profile > h4 {
     font-size: 14px;
     font-weight: bold;
-    color: #C271FF;
+    color: var(--purple-font);
 }
 
 .philip-profile {
@@ -269,7 +270,7 @@ header {
 
 i {
     padding-right: 10px;
-    color: #C271FF;
+    color: var(--purple-font);
 }
 
 .last {
@@ -284,8 +285,8 @@ i {
     align-items: center;
     place-content: center;
     min-height: 505px;
-    background-color: #071629;
-    color: #FFFFFF;
+    background-color: var(--dark-font);
+    color: var(--white-font);
     text-align: center;
 }
 
@@ -302,8 +303,8 @@ i {
 }
 
 .register-button {
-    color: #FFFFFF;
-    background-color: #C271FF;
+    color: var(--white-font);
+    background-color: var(--purple-font);
     text-align: center;
     width: fit-content;
     height: fit-content;
@@ -319,7 +320,7 @@ i {
 }
 
 .free-membership {
-    color: #C271FF;
+    color: var(--purple-font);
     font-weight: bold;
 }
 
@@ -334,19 +335,19 @@ i {
     align-items: center;
     justify-content: space-between;
     min-width: 920px;
-    min-height: 500px;
-    background-color: #FFFFFF;
+    min-height: 600px;
+    background-color: var(--white-font);
 }
 
 .faq-header {
     text-align: center;
     font-size: 60px;
     font-weight: lighter;
-    padding: 2rem 0;
+    padding: 5rem 0;
 }
 
-.left-faq {
-    margin-right: 40px;
+.left-faq, .right-faq {
+    margin: 0 5rem;
 }
 
 .faq > h3 {
@@ -368,4 +369,24 @@ i {
     margin-bottom: 10px;
 }
 
+/* Footer styles */
+
+.footer-section {
+    display: flex;
+    min-height: 250px;
+    background-color: var(--dark-font);
+    align-items: center;
+}
+
+.footer-flex {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    column-gap: 20rem;
+}
+
+.copywrite {
+    color: var(--white-font);
+    font-size: 12px;
+    margin-top: 8rem;
+}
 
