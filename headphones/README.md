@@ -29,13 +29,13 @@ The Headphone Website is a static web page that presents information about vario
 ## Responsive views
 
 - Desktop view
-![Alt text](/alx_html_css/headphones/header-assests/images/01_headphones_desktop@2x.png)
+![Desktop view](/alx_html_css/headphones/header-assests/__MACOSX/images/responsive_images/01_headphones_desktop@2x.jpg)
 
 - Tablet view
-![Alt text](/alx_html_css/headphones/header-assests/images/01_headphones_tablet@2x.png)
+![Tablet view](/alx_html_css/headphones/header-assests/__MACOSX/images/responsive_images/01_headphones_tablet@2x.jpg)
 
 - Mobile view
-![Alt text](/alx_html_css/headphones/header-assests/images/01_headphones_mobile@2x.png)
+![mobile view](/alx_html_css/headphones/header-assests/__MACOSX/images/responsive_images/01_headphones_mobile@2x.jpg)
 
 ## Technologies Used
 
