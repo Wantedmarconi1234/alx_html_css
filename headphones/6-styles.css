@@ -246,16 +246,17 @@ label #close {
    justify-self: center;
 }
 
+/* Positioning the text in the pentagon */
 .percentage {
     display: grid;
     position: relative;
-    top: -8rem;
+    top: 40px;
 }
 
 .percentage h3 {
     font-weight: bold;
     font-size: 46px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .percentage p {
@@ -263,13 +264,13 @@ label #close {
 }
 
 /* Drawing a pentagon */
-/* .pentagon {
-    width: 200px;
-    height: 200px;
-    background: #3498db;
+.pentagon {
+    width: 180px;
+    height: 180px;
+    background: var(--font-orange);
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
     margin: 50px auto;
-} */
+}
 
 /* Added animations to the pentagon */
 
